@@ -13,12 +13,12 @@ Default values for the C&C and WHOIS IRC server configurations are in server_con
 git clone https://github.com/abusesa/idiokit  
 
 ## Docker  
-docker build -t ircbot .
-docker run -it --rm --name IRCbot03 ircbot --cc-nick bot3_quakenet --whois-host dreamhack.se.quakenet.org  
+docker build -t ircbot .  
+docker run -it --rm --name IRCbot03 ircbot --cc-nick bot3_quakenet --whois-host   dreamhack.se.quakenet.org  
 
 ## Naked  
-cd idiokit
-sudo python setup.py install
-cd ..
-python ircbot.py --cc-nick bot3_quakenet --whois-host dreamhack.se.quakenet.org
+cd idiokit  
+sudo python setup.py install  
+cd ..  
+python ircbot.py --cc-nick bot3_quakenet --whois-host dreamhack.se.quakenet.org  
 
