@@ -1,0 +1,10 @@
+--- irc.py
+@@ -97,7 +97,7 @@
+     ssl=False,
+     ssl_verify_cert=True,
+     ssl_ca_certs=None,
+-    timeout=30.0
++    timeout=130.0
+ ):
+     parser = IRCParser()
+ 
